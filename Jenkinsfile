@@ -6,8 +6,8 @@ pipeline {
         REGION = 'us-east-1'
         appVersion = ''
         ACC_ID = 557690617909
-        PROJECT = roboshop
-        COMPONENT = user
+        PROJECT = "roboshop"
+        COMPONENT = "user"
     }
     options{
         timeout(time: 30, unit: 'MINUTES')
