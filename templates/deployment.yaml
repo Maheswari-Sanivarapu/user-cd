@@ -22,7 +22,7 @@ spec:
         tier: app
     spec:
       containers:
-      - name:
+      - name: user
         image: "{{ .Values.deployment.imageURL }}:{{ .Values.deployment.imageVersion }}"
         resources:
           requests:
